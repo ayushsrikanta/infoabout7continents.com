@@ -1,0 +1,92 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cookie;
+    word-spacing: 5px;
+    border-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+
+.banner
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 6rem;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+    color:white;
+}
+
+.aboutcontinents{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    
+}
+
+
+.aboutcontinents p5 {
+    font-size: 40px;
+    color: rgb(145, 95, 93);
+}
+
+
+.aboutcontinents img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.sketchfab-embed-wrapper iframe {
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+
+.aboutasia h1{
+    text-align: center;
+    font-size: 40px;
+    color: darkgrey;
+    text-decoration: underline;
+}
+
+
+
+.aboutasia p1 {
+    color: darkgreen;
+   font-size: 40px;
+}
+
+.aboutasia p2 {
+    color: darkgreen;
+   font-size: 40px;
+}
+
+
+
